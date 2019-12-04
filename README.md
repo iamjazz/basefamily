@@ -3,10 +3,10 @@
 ### 基于base64模块编写
 
 #### 用法
-···
+```
 git clone https://github.com/iamjazz/pythonbase.git
 cd pythonbase
-···
+```
 
 ```
 python3 Decode.py  
