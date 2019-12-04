@@ -2,7 +2,7 @@
 
 ### 基于base64模块编写
 
-### 用法
+### 用法及安装
 ```
 git clone https://github.com/iamjazz/pythonbase.git
 cd pythonbase
@@ -52,4 +52,5 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 请输入要解码的Base85编码:K}1bSP5
 解码后字符为: ADMIN
 ```
-
+## 待补充
+base58编解码
