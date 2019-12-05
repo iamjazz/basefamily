@@ -51,6 +51,6 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 ```
 ## 待补充
 
-base全家桶识别脚本  Eg:输入字符串 K}1bSP5 识别为Base85编码格式
+1.base全家桶识别脚本  Eg:输入字符串 K}1bSP5 识别为Base85编码格式
 
-编码、解码、识别 融为一体
+2.编码、解码、识别 融为一体
