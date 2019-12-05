@@ -1,7 +1,7 @@
 ## Base 全家桶编解码
 ### 本程序采用Python3编写
-### 更新
-#### 新增编解码
+#### 更新
+##### 新增编解码
     1.Base58
     
     2.Base36
@@ -59,6 +59,6 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 
 1.字符编码问题如字符类型错误
 
-需要传入字节byte类型的，而非字符str类型的 此类错误
+2.需要传入字节byte类型的，而非字符str类型的 此类错误
 
-2.已经有些编码需要双重验证str什么的
+3.已经有些编码需要双重验证str什么的
