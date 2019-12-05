@@ -1,5 +1,5 @@
 ## Base 全家桶编解码
-
+### 本程序采用Python3编写
 ### 更新
 #### 新增编解码
     1.Base58
@@ -14,6 +14,7 @@
 ```
 git clone https://github.com/iamjazz/pythonbase.git
 cd pythonbase
+pip3 install -r requirements.txt
 ```
 
 
