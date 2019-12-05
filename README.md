@@ -54,3 +54,11 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 1.base全家桶识别脚本  Eg:输入字符串 K}1bSP5 识别为Base85编码格式
 
 2.编码、解码、识别 融为一体
+
+## 编写过程中遇到的困难
+
+1.字符编码问题如字符类型错误
+
+需要传入字节byte类型的，而非字符str类型的 此类错误
+
+2.已经有些编码需要双重验证str什么的
