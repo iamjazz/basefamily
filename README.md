@@ -34,7 +34,7 @@ pip3 install -r requirements.txt
 ```
 全自动：
 
-Base Family Bucket/auto  python3 test.py
+Base Family Bucket/auto/python3 test.py
 请输入你想全自动解码的编码：BzgdpCQ
 Base58解码后字符为: asdfa
 OK
