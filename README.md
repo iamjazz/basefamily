@@ -15,7 +15,7 @@
     3.Base91
     
     4.Base62
-# 新增全自动识别编码并解密(目前有些许bug，不过大致能用了
+#### 新增全自动识别编码并解密(目前有些许bug，不过大致能用了
 用法：
 ```
 python3 auto.py xxxxxxxx
@@ -30,11 +30,14 @@ pip3 install -r requirements.txt
 
 ### 用法事例
 ```
+全自动：
+
 Base Family Bucket/auto  python3 test.py
 请输入你想全自动解码的编码：BzgdpCQ
 Base58解码后字符为: asdfa
 OK
 
+编码：
 hudeMacBook-Pro:Base Family Bucket hu$ python3 Encode.py 
 请输入你想转码的编码：
 1.Base64编码;
@@ -43,13 +46,14 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Encode.py
 4.Base32编码;
 5.Base58编码;
 6.Base36编码;
-7.Base91解码;
-8.Base62解码;
+7.Base91编码;
+8.Base62编码;
 
 请输入编号：2
 请输入要编码的Base85编码:ADMIN
 编码后字符为: K}1bSP5
 
+解码：
 hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py 
 请输入你想转码的编码：
 1.Base64解码;
