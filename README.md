@@ -16,6 +16,12 @@ base62既能够解码int又能够解码str
 ```
 ### 注：
 全自动识别解密的脚本返回值仅供参考，具体请用Decode.py和Encode.py往复测试
+
+#### 新增全自动识别编码并解密
+用法：
+```
+python3 auto.py
+```
 #### 新增
 编解码方式
 
@@ -26,11 +32,7 @@ base62既能够解码int又能够解码str
     3.Base91
     
     4.Base62
-#### 新增全自动识别编码并解密
-用法：
-```
-python3 auto.py
-```
+
 ### 安装模块
 ```
 git clone https://github.com/iamjazz/pythonbase.git
