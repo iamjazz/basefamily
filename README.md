@@ -1,6 +1,10 @@
 ## Base 全家桶编解码
 ### 本程序采用Python3编写
-#### 更新
+#### 写这个巨垃圾脚本的原因：
+1.渗透测试环境中，url的GET/POST请求中一些编码转换以及cookies中的某些参数值
+2.CTF比赛中也能遇到一些乱七八糟的的base全家桶
+#### 注：
+全自动识别解密的脚本返回值仅供参考，具体请用Decode.py和Encode.py往复测试
 ##### 新增编解码
     1.Base58
     
@@ -9,7 +13,8 @@
     3.Base91
     
     4.Base62
-
+##### 新增全自动识别编码并解密(目前有些许bug，不过大致能用了
+用法：python3 auto.py xxxxxxxx
 ### 用法及安装
 ```
 git clone https://github.com/iamjazz/pythonbase.git
@@ -20,6 +25,10 @@ pip3 install -r requirements.txt
 
 ### 用法事例
 ```
+ ✘ ⚙ hu@Jazz  ~/Documents/Base Family Bucket/auto  python3 test.py
+请输入你想全自动解码的编码：BzgdpCQ
+Base58解码后字符为: asdfa
+OK
 hudeMacBook-Pro:Base Family Bucket hu$ python3 Encode.py 
 请输入你想转码的编码：
 1.Base64编码;
@@ -51,14 +60,9 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 ```
 ## 待补充
 
-1.base全家桶识别脚本  Eg:输入字符串 K}1bSP5 识别为Base85编码格式
+1.~~base全家桶识别脚本  Eg:输入字符串 K}1bSP5 识别为Base85编码格式~~
 
-2.编码、解码、识别 融为一体
+2.~~编码、解码、识别 融为一体~~
 
-## 编写过程中遇到的困难
+3.小bug:少许编码有同一解造成没有完全识别 Eg:字符串“1241”经过编码后是字符串"K1",auto解的时候，base85解出了 "K1"->">" 而没有走到base62解密
 
-1.字符编码问题如字符类型错误
-
-2.需要传入字节byte类型的，而非字符str类型的 此类错误
-
-3.已经有些编码需要双重验证str什么的
