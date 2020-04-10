@@ -39,7 +39,7 @@ pip3 install -r requirements.txt
 ```
 
 
-### 用法事例
+### 用法示例
 ```
 全自动：
 
@@ -88,6 +88,6 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 3.~~小bug:少许编码有同一解造成没有完全识别 Eg:字符串“1241”经过编码后是字符串"K1",auto解的时候，base85解出了 "K1"->">" 而没有进行到base62解密~~
 4.上面那一条，我把base85和base62放一起输出暂时解决了
 ## 结语
-##### 自动化识别没啥大bug了，凑合凑合结合着Decode.py用
+##### 自动化识别没啥大bug了，凑合一下结合着Decode.py用
 
 ##### 代码是真的垃圾，为了让识别逻辑更严谨，我竟然嵌套了十几层异常处理
