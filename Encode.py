@@ -7,7 +7,7 @@ import base62
 # Author:Jazz
 print("请输入你想转码的编码:")
 print("1.Base64编码;\n"
-      "2.Base85编码;\n3.Base16编码;\n4.Base32编码;\n5.Base58编码;\n6.Base36编码;\n7.Base91解码;\n8.Base62解码;")
+      "2.Base85编码;\n3.Base16编码;\n4.Base32编码;\n5.Base58编码;\n6.Base36编码;\n7.Base91编码;\n8.Base62编码;")
 sel=int(input("请输入编号："))
 if(sel==1):
     s64 = str(input("请输入要编码的Base64编码:"))
@@ -47,7 +47,7 @@ elif (sel == 7):
     d91=base91.encode(str.encode(s91))
     print("编码后字符为:",d91)
 elif (sel == 8):
-    s62=int(input("请输入要编码的Base62编码:"))
+    s62=int(input("请输入要编码码的Base62编码:"))
     d62 = base62.encode(s62)
     assert type(s62) == int
     print("编码后字符为:",d62)
