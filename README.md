@@ -93,3 +93,5 @@ hudeMacBook-Pro:Base Family Bucket hu$ python3 Decode.py
 ##### 自动化识别没啥大bug了，凑合一下结合着Decode.py用
 
 ##### 代码是真的垃圾，为了让识别逻辑更严谨，我竟然嵌套了十几层异常处理
+
+##### 中间有些代码有些冗余，但不影响使用
