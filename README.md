@@ -35,8 +35,8 @@ python3 auto.py
 
 ### 安装模块
 ```
-git clone https://github.com/iamjazz/pythonbase.git
-cd pythonbase
+git clone https://github.com/iamjazz/basefamily.git
+cd basefamily
 pip3 install -r requirements.txt
 ```
 
