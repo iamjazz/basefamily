@@ -5,7 +5,9 @@
 2.CTF比赛中也能遇到一些乱七八糟的的base全家桶
 #### 注：
 全自动识别解密的脚本返回值仅供参考，具体请用Decode.py和Encode.py往复测试
-##### 新增编解码
+#### 新增
+编解码方式
+
     1.Base58
     
     2.Base36
@@ -13,9 +15,12 @@
     3.Base91
     
     4.Base62
-##### 新增全自动识别编码并解密(目前有些许bug，不过大致能用了
-用法：python3 auto.py xxxxxxxx
-### 用法及安装
+# 新增全自动识别编码并解密(目前有些许bug，不过大致能用了
+用法：
+```
+python3 auto.py xxxxxxxx
+```
+### 安装模块
 ```
 git clone https://github.com/iamjazz/pythonbase.git
 cd pythonbase
@@ -25,10 +30,11 @@ pip3 install -r requirements.txt
 
 ### 用法事例
 ```
- ✘ ⚙ hu@Jazz  ~/Documents/Base Family Bucket/auto  python3 test.py
+Base Family Bucket/auto  python3 test.py
 请输入你想全自动解码的编码：BzgdpCQ
 Base58解码后字符为: asdfa
 OK
+
 hudeMacBook-Pro:Base Family Bucket hu$ python3 Encode.py 
 请输入你想转码的编码：
 1.Base64编码;
