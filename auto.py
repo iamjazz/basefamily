@@ -142,3 +142,5 @@ else:
         s62=autodecode
         d62=base62.decode(s62)
         print("Base62解码后字符为:", d62)
+    else:
+        print("OK")
